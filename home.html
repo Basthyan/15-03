@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio | CMYK</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/cmykLogo.png ">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: rgba(255, 255, 246, 0.805);">
+  <!-- Barra de Navegacion -->
+  <nav class="navbar bg-danger-subtle">
+    <div class="container">
+      <a class="navbar-brand" href="home.html"></a>
+      <img src="img/cmykLogo.png" alt="Cmyk.cl" width="50" height="50">
+      <link rel="icon" href="img/cmykLogo.png">
+      <a class="nav-link active" aria-current="page" href="home.html">Inicio</a>
+      <a class="nav-link active" aria-current="page" href="#sec1">Suscripcion</a>
+      <a class="nav-link active" aria-current="page" href="#sec2">Contactanos</a>
+
+
+      <form class="d-flex" role="Buscar">
+        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-danger" type="submit"><i class="fas fa-search"></i></i></button>
+      </form>
+
+
+      <button class="navbar-toggler border-danger" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bienvenido!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Papeleria.html">Papeleria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Accesorios.html">Accesorios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Velas.html">Velas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Estampados.html">Estampados</a>
+            </li>
+            <br>
+            <div class="btn carrito">
+              <a class="nav-link" href="Carrito.html">
+                <button type="button" class="btn btn-danger">Ver Carrito</button>
+              </a>
+            </div>
+            <div class="btn login">
+
+              <a class="nav-link" href="Log in.html">
+                <button type="button" class="btn btn-outline-secondary">Inicio de sesion</button>
+              </a>
+            </div>
+        </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="Estampados.html"><img src="img/carru1.jpeg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="Papeleria.html"><img src="img/carru2.jpeg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner CMYK.jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <h3 class="fw-bolder text-center mt-4" style="font-family: Georgia, 'Times New Roman', Times, serif;">MÁS RECIENTES
+  </h3>
+  <hr>
+  <br>
+
+  <!-- Cards -->
+  <div class="row row-cols-1 row-cols-md-3 g-2">
+    <div class="col">
+      <div class="card">
+        <a href="MPA1.html">
+          <img src="img/Acc1.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Pin: Harry Potter</h5>
+          <p class="card-text">Puedes mandar tu diseño para crear tu pin 100% a tu gusto.</p><br>
+          <h4 class="card-text"><small class="text-body-secondary">$2.000</small></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="MPA2.html">
+          <img src="img/Acc2.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Pin: Studio ghibli</h5>
+          <p class="card-text">Puedes mandar tu diseño para crear tu pin 100% a tu gusto.</p><br>
+          <h4 class="card-text"><small class="text-body-secondary">$2.000</small></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="MPP1.html">
+          <img src="img/Pap1.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Cuaderno Scary Movie</h5>
+          <p class="card-text">Este cuaderno te permitirá sacar y poner las hojas cuantas veces tu quieras, además
+            podrás personalizar las tapas de tu cuaderno para que este sea único.</p>
+          <h4 class="card-text"><small class="text-body-secondary">$6.500</small></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="MPP3.html">
+          <img src="img/Pap3.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Post-its medicina</h5>
+          <p class="card-text">Post its, memopad, notas adhesivas.</p> <br>
+          <h4 class="card-text"><small class="text-body-secondary">$1.500</small></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="MPV1.html">
+          <img src="img/Vel1.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Velas diseño gatitos pequeños</h5>
+          <p class="card-text">Velas hecha a mano con forma de gato pequeño; tamaño 4x3 cm.</p><br>
+          <h4 class="card-text"><small class="text-body-secondary">$1.500</small></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="MPE1.html">
+          <img src="img/vin1.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Polera Sailor Moon - Serena sonrojada</h5>
+          <p class="card-text">Tallas disponibles: L.</p><br>
+          <h4 class="card-text"><small class="text-body-secondary">$11.990</small></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="p-1">
+    <div class="border-bottom text-center" style="height: 0.9rem;">
+      <span class="bg-white px-1 mt-1">o</span>
+    </div>
+
+    <!-- Suscipcion a la pagina -->
+    <section id="sec1">
+      <div class="p-3 bg-danger-subtle  justify-content-center mt-5 " style="height: 13rem;">
+        <div class="justify-content-center text-lg-center">
+          <h5 class="mt-3 fw-bold">Suscríbete a nuestra página</h5>
+          <p>¡Recibirás novedades y ofertas limitadas que tenemos en CMYK para ti!</p>
+        </div>
+        <div class="w-auto d-flex justify-content-center gap-3">
+          <input class="form-control bg-light p-2" style="width: 30rem;" type="email"
+            placeholder="Ingresa tu dirección de correo electrónico" />
+          <button type="button" class="btn btn-danger d-flex rounded-5">Registrarme</button>
+        </div>
+      </div>
+    </section>
+    <!-- Atajos de ayuda y contactos -->
+    <section id="sec2" style="margin-top:  -30px;">
+      <footer class="pt-4 my-md-5 pt-md-5 " style="background-color: #cfdeda;">
+          <div class="row">
+              <div class="col-12 col-md">
+                  <img class="mb-2" src="img/cmykLogo.png" alt="" width="150px">
+                  <small class="d-block mb-3 text-body-secondary">© Todos los derechos reservados Cmyk.cl</small>
+              </div>
+              <div class="col-6 col-md">
+                  <h5>Contáctanos</h5>
+                  <ul class="list-unstyled text-small">
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Mesa de ayuda</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Tel: +569 1234 5678</a>
+                      </li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">correo:
+                              cmykcl@contacto.cl</a></li>
+                  </ul>
+              </div>
+              <div class="col-6 col-md">
+                  <h5>Ayuda</h5>
+                  <ul class="list-unstyled text-small">
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Servicio al cliente</a>
+                      </li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Preguntas
+                              frecuentes</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cambios y
+                              devoluciones</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Términos y
+                              condiciones</a></li>
+                  </ul>
+              </div>
+              <div class="col-6 col-md">
+                  <h5>Sobre nosotros</h5>
+                  <ul class="list-unstyled text-small">
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Quienes somos</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">contacto</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Nuestras Tiendas</a>
+                      </li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Trabaja con
+                              nosotros</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Ventas al por mayor</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-12 col-md">
+                  <img class="mb-2" src="img/Webpay.webp" alt="" width="200px">
+              </div>
+          </div>
+      </footer>
+  </section>
+</body>
+
+</html>
