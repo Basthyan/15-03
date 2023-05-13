@@ -73,24 +73,32 @@
             </div>
         </div>
   </nav><br>
-  <div class="rectangulo-ventas">
+  <div class="container-md" style="border: 1px solid #ddd; padding: 20px;">
     <!-- Aquí puedes añadir el contenido del rectángulo de ventas -->
-    <img class="imagen" src="img/Pap4.jpg" alt="">
-    <div class="rectangulo-exterior">
-      <!-- Aquí puedes añadir el contenido del rectángulo exterior -->
-      <p><span style="color: rgb(231, 132, 132);"> Nuevo | +20 vendidos</span></p>
+    <div class="row">
+      <div class="col-md-6 text-center ">
+        <img class="img-fluid w-50" src="img/Pap4.jpg" alt="">
+
+      </div>
+      <div class="col-md-6 text-center ">
+        <p><span style="color: rgb(231, 132, 132);"> Nuevo | +20 vendidos</span></p>
       <h2> Set de stickers: Anime</h2>
       <div class="precio">$1.500</div>
       <div>Stock disponible</div>
       <div class="lol">
         <a href=""><span style="color: rgb(231, 132, 132);">Ver los metodos de pago</span> </a>
       </div>
-      <br>
-      <button type="button" class="btn">Comprar</button>
+      <button type="button" class="btn btn-danger" style="margin-top: 50px;"  id="btnComprar">Comprar</button>
 
-      <button type="button2" class="agregar">Agregar</button>
+        <button class="btn btn-danger" type="submit" style="margin-top: 50px ;" onclick='Alerta("Agregar")' id="btnAgregar">Agregar</button>
+
+      </div>
     </div>
-    <div class="descripcion">
+    
+      <!-- Aquí puedes añadir el contenido del rectángulo exterior -->
+      
+    <div class="descripcion"
+    style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; background-color: #f5f5f5; margin-top: 40px; border-radius: 6px;">
       <h2>Descripción</h2>
       <p>- TEMA: tokyo revengers, bleach y haikyuu. <br>
         - Bolsas de stickers con entrega inmediata, más de +50 temáticas distintas. <br>
@@ -164,6 +172,13 @@
         </div>
       </footer>
     </section>
+    <script>
+      function Alerta(Agregar){
+        console.log("Agregado");
+        alert("Agregado Correctamente")
+      }
+  
+    </script>
 </body>
 
 </html>
